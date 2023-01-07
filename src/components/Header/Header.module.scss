@@ -1,0 +1,23 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .nav {
+        display: flex;
+
+        .navItem {
+            margin-right: 70px;
+        }
+    }
+
+    .contacts {
+        display: flex;
+        align-items: center;
+        
+        .contactsItem {
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.banner {
+    margin-top: 200px;
+    position: relative;
+
+    .feel {
+        color: #A49590;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        font-size: 50px;
+        font-family: "MulishBold";
+    }
+
+    .topLineWrapper {
+        bottom: calc(100% + 30px);
+        left: 52px;
+        position: absolute;
+
+        .topLine {
+            background-color: #58BF16;
+            height: 3px;
+            width: 582px;
+        }
+
+        .topLeftLine {
+            background: #58BF16;
+            height: 75px;
+            width: 3px;
+        }
+    }
+
+    .bottomLineWrapper {
+        bottom: 20px;
+        left: 52px;
+        position: absolute;
+
+        .bottomLine {
+            background: #58BF16;
+            height: 3px;
+            width: 92px;
+        }
+
+        .bottomLeftLine {
+            background: #58BF16;
+            height: 94px;
+            width: 3px;
+        }
+    }
+
+    .cupWrapper {
+        background: linear-gradient(180deg, #9AF3B9 0%, rgba(235, 238, 135, 0.5) 100%);
+        border-radius: 50%;
+        height: 656px;
+        left: 93%;
+        position: absolute;        
+        top: 47%;
+        transform: rotate(-45deg);
+        transform: translate(-50%, -50%);
+        width: 656px;
+        z-index: -1;
+
+        .cup {
+            left: 6%;
+            position: absolute;
+            top: 12%;
+        }
+    }
+
+    .bottomRightWrapper {
+        bottom: 20px;
+        left: 42%;
+        position: absolute;
+
+        .bottomTopRight {
+            background: #58BF16;
+            height: 3px;
+            width: 71px;
+        }
+
+        .bottomRight {
+            background: #58BF16;
+            height: 304px;
+            right: 0;
+            position: absolute;
+            width: 3px;
+        }
+    }
+}
