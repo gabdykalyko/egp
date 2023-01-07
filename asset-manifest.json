@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/egp/static/css/main.496212ed.css",
+    "main.js": "/egp/static/js/main.bbbda2c6.js",
+    "static/js/787.aa3bfa12.chunk.js": "/egp/static/js/787.aa3bfa12.chunk.js",
+    "static/media/cupgroup.jpg": "/egp/static/media/cupgroup.27c84f8554f79ec82ef5.jpg",
+    "static/media/lab.jpg": "/egp/static/media/lab.ccd5f0d821dcae625fba.jpg",
+    "static/media/cup.png": "/egp/static/media/cup.a32757ab5317262eee53.png",
+    "static/media/polyp.jpg": "/egp/static/media/polyp.dae7f56821eaeb9d1b83.jpg",
+    "static/media/Mulish-Light.ttf": "/egp/static/media/Mulish-Light.7a7fd01c4b43ebbaf782.ttf",
+    "static/media/Mulish-Medium.ttf": "/egp/static/media/Mulish-Medium.282d0d903ec6a342392f.ttf",
+    "static/media/Mulish-Bold.ttf": "/egp/static/media/Mulish-Bold.84c15758a512288dca5b.ttf",
+    "static/media/Mulish-Regular.ttf": "/egp/static/media/Mulish-Regular.e497fc540939821b16a0.ttf",
+    "static/media/Mulish-SemiBold.ttf": "/egp/static/media/Mulish-SemiBold.4f754a16985bfa495977.ttf",
+    "static/media/phone.svg": "/egp/static/media/phone.64871a656e7e05f7b2685fe983ee93f3.svg",
+    "static/media/logo.svg": "/egp/static/media/logo.a88ed419bb6ff7db8c6b9431d5ca56f6.svg",
+    "static/media/inst.svg": "/egp/static/media/inst.9ea09accd3e41cac7e5fd06d9847c7d1.svg",
+    "static/media/whatsapp.svg": "/egp/static/media/whatsapp.cd41159f5ac8911a62f42b05a7dc3fa0.svg",
+    "static/media/telegram.svg": "/egp/static/media/telegram.a69c14195ac5f84fd67ab701ae6d0468.svg",
+    "index.html": "/egp/index.html",
+    "main.496212ed.css.map": "/egp/static/css/main.496212ed.css.map",
+    "main.bbbda2c6.js.map": "/egp/static/js/main.bbbda2c6.js.map",
+    "787.aa3bfa12.chunk.js.map": "/egp/static/js/787.aa3bfa12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.496212ed.css",
+    "static/js/main.bbbda2c6.js"
+  ]
+}
