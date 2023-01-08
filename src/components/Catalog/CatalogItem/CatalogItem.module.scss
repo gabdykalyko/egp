@@ -1,0 +1,28 @@
+.item {
+    background: #F4F4F4;
+    border-radius: 15px;
+    padding: 15px 30px;
+    width: 33%;
+
+    .imgWrapper {
+
+        .img {
+            border-radius: 15px;
+            width: 100%;
+        }
+    }
+
+    .title {
+        color: #58BF16;
+        font-family: "MulishSemiBold";
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .list {
+        font-size: 14px;
+        margin-top: 14px;
+        padding-left: 20px;
+    }
+}

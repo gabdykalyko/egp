@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
+import Catalog from "../../components/Catalog/Catalog";
 import Coworking from "../../components/Coworking/Coworking";
 import Header from "../../components/Header/Header";
 import Production from "../../components/Production/Production";
@@ -13,6 +14,7 @@ const Main = () => {
             <About />
             <Coworking />
             <Production />
+            <Catalog />
         </div>
     )
 }

@@ -1,19 +1,24 @@
 import logo from '../../images/logo.svg';
 import phone from '../../images/phone.svg';
 import styles from "./Header.module.scss";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
     return (
         <div className={styles.header}>
             <div>
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo" />
             </div>
             <div className={styles.nav}>
                 <div className={styles.navItem}>
-                    О компании
+                    <Link to="/#about">
+                        О компании
+                    </Link>
                 </div>
                 <div className={styles.navItem}>
-                    Каталог продукции
+                    <Link to="/#catalog">
+                        Каталог продукции
+                    </Link>
                 </div>
                 <div>
                     Карьера в EGP+I
@@ -24,7 +29,7 @@ const Header = () => {
                     Контакты
                 </div>
                 <div>
-                    <img src={phone} alt="phone"/>
+                    <img src={phone} alt="phone" />
                 </div>
             </div>
         </div>

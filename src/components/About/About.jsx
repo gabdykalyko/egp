@@ -5,7 +5,7 @@ import cupgroup from "../../images/cupgroup.jpg";
 
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id="about">
             <div className={styles.title}>
                 О Компании
                 <span className={styles.grey}> EGP</span>

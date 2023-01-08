@@ -1,4 +1,4 @@
-import CoworkingItem from "../../CoworkingItem/CoworkingItem";
+import CoworkingItem from "./CoworkingItem/CoworkingItem";
 import styles from "./Coworking.module.scss";
 import clock from "../../images/clock.svg";
 import guarantee from "../../images/guarantee.svg";
