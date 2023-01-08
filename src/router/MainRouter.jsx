@@ -4,7 +4,7 @@ import Main from "../pages/Main/Main";
 
 const MainRouter = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Layout>
                 <Routes>
                     <Route path='/' element={<Main />} />
