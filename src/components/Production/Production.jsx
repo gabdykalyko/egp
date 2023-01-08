@@ -1,5 +1,5 @@
 import React from 'react';
-import CarouselBox from '../CarouselBox/CarouselBox';
+import CarouselBoxProduction from '../CarouselBox/CarouselBoxProduction/CarouselBoxProduction';
 import styles from "./Production.module.scss";
 
 const Production = () => {
@@ -9,7 +9,7 @@ const Production = () => {
                 Наше производство
             </div>
             <div>
-               <CarouselBox />
+               <CarouselBoxProduction />
             </div>
         </div>
     )
