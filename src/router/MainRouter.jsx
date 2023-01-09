@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
+import CareerPage from "../pages/CareerPage/CareerPage";
 import CatalogPage from "../pages/CatalogPage/CatalogPage";
+import ContactsPage from "../pages/ContactsPage/ContactsPage";
 import Main from "../pages/Main/Main";
 
 const MainRouter = () => {
@@ -10,6 +12,7 @@ const MainRouter = () => {
                 <Routes>
                     <Route path='/' element={<Main />} />
                     <Route path='/catalog' element={<CatalogPage />} />
+                    <Route path='/career' element={<CareerPage />} />
                 </Routes>
             </Layout>
         </BrowserRouter>

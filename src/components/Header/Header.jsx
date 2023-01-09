@@ -21,7 +21,9 @@ const Header = () => {
                     </Link>
                 </div>
                 <div>
-                    Карьера в EGP+I
+                    <Link to="/career">
+                        Карьера в EGP+I
+                    </Link>
                 </div>
             </div>
             <div className={styles.contacts}>

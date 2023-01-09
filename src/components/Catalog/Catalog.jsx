@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const Catalog = () => {
     return (
-        <div className={styles.catalog} id="catalog">
-            <div className={styles.title}>
+        <div className={styles.catalog}>
+            <div className={styles.title} id="catalog">
                 Каталог продукции
             </div>
             <div className={styles.catalogWrapper}>

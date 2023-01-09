@@ -1,0 +1,31 @@
+.formWrapper {
+    margin: 50px auto 0;
+    width: 70%;
+
+    .inputWrapper {
+        font-size: 22px;
+        margin-top: 20px;
+
+        .input {
+            border: 1px solid #A49590;
+            border-radius: 15px;
+            font-size: 28px;
+            height: 80px;
+            outline: none;
+            padding: 20px 40px;
+            width: 100%;
+        }
+
+        .send {
+            background-color: #58BF16;
+            border: none;
+            border-radius: 15px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 22px;
+            outline: none;
+            padding: 12px;
+            width: 100%;
+        }
+    }
+}
