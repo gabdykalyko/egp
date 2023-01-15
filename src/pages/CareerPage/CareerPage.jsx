@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import styles from "./CareerPage.module.scss";
 import { useState } from 'react';
 import { send } from 'emailjs-com';
+import { Alert } from "@mui/material";
 
 const CareerPage = () => {
     const [toSend, setToSend] = useState({
@@ -10,6 +11,8 @@ const CareerPage = () => {
         email: '',
         position: '',
     });
+
+    const [success, setSuccess] = useState(false)
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -20,7 +23,7 @@ const CareerPage = () => {
             'E2mXTQMVNqLrvH6rQ',
         )
             .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
+                setSuccess(true)
             })
             .catch((err) => {
                 console.log('FAILED...', err);
@@ -36,6 +39,7 @@ const CareerPage = () => {
         <div>
             <Header />
             <div className={styles.formWrapper}>
+                {success && <Alert severity="success">Заявка успешно отправлена</Alert>}
                 <form>
                     <div className={styles.inputWrapper}>
                         <input
@@ -77,7 +81,7 @@ const CareerPage = () => {
                             value={toSend.position}
                         />
                     </div>
-                    <div className={styles.inputWrapper}>
+                    {/* <div className={styles.inputWrapper}>
                         <div>
                             Добавить резюме:
                         </div>
@@ -87,7 +91,7 @@ const CareerPage = () => {
                             onChange={handleChange}
                             value={toSend.resume}
                         />
-                    </div>
+                    </div> */}
                     <div className={styles.inputWrapper}>
                         <button
                             className={styles.send}

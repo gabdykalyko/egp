@@ -29,3 +29,16 @@
         }
     }
 }
+
+@media only screen and (max-width: 510px) {
+    .carouselWrapper {
+        height: 300px;
+
+        .img {
+            .textWrapper {
+                padding: 15px;
+                font-size: 14px;
+            }
+        }
+    }
+}

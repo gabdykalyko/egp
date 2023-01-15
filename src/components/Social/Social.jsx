@@ -12,7 +12,7 @@ const Social = () => {
             <div className={styles.socialItem}>
                 <img src={telegram} />
             </div>
-            <div className={styles.socialItem}>
+            <div>
                 <img src={whatsapp} />
             </div>
         </div>

@@ -78,3 +78,61 @@
         }
     }
 }
+
+@media only screen and (max-width: 1070px) {
+    .about {
+        margin-top: 507px;
+    }
+}
+
+@media only screen and (max-width: 964px) {
+    .about {
+        margin-top: 507px;
+
+        .title {
+            text-align: center;
+        }
+
+        .text {
+            margin: 50px auto;
+            width: 70%;
+            padding: 20px;
+            margin: 30px auto;
+
+            .backGrey {
+                left: 50%;
+                width: 120%;
+            }
+        }
+
+        .img {
+            justify-content: center;
+
+            img {
+                width: 100%;
+            }
+    
+            .left {
+                display: none;
+            }
+    
+            .bottom {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .about {
+        margin-top: 400px;
+        
+      .title {
+        font-size: 30px;
+      }
+
+      .text {
+        font-size: 15px;
+      }
+    }
+}

@@ -8,3 +8,12 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 510px) {
+    .design {
+
+        .title {
+            font-size: 30px;
+        }
+    }
+}

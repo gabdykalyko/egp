@@ -1,0 +1,16 @@
+@media only screen and (max-width: 964px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        .menu {
+            width: 40px;
+        }
+    }
+}
+
+@media (min-width: 965px) {
+    .header {
+        display: none;
+    }
+}

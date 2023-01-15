@@ -14,3 +14,21 @@
         margin-top: 90px;
     }
 }
+
+@media only screen and (max-width: 964px) {
+    .coworking {
+
+        .title {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .coworking {
+
+        .title {
+            font-size: 30px;
+        }
+    }
+}

@@ -14,11 +14,25 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
         row-gap: 20px;
         padding: 44px 38px;
 
         .trustItem {
             width: 16%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .trust {
+
+        .title {
+            font-size: 30px;
         }
     }
 }

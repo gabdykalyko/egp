@@ -29,3 +29,27 @@
         }
     }
 }
+
+@media only screen and (max-width: 740px) {
+    .carouselWrapper {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 604px) {
+    .carouselWrapper {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .carouselWrapper {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .carouselWrapper {
+        height: 200px;
+    }
+}

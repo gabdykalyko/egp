@@ -1,6 +1,10 @@
 import Carousel from 'react-material-ui-carousel';
-import prod from "../../../images/prod.png";
-import prod2 from "../../../images/prod2.jpg";
+import prod from "../../../images/production/first.png";
+import prod2 from "../../../images/production/second.png";
+import prod3 from "../../../images/production/third.png";
+import prod4 from "../../../images/production/fourth.png";
+import prod5 from "../../../images/production/fifth.png";
+import prod6 from "../../../images/production/sixth.png";
 import styles from "./CarouselBoxProduction.module.scss";
 
 function Item(props) {
@@ -12,7 +16,7 @@ function Item(props) {
                 backgroundRepeat: `no-repeat`
             }}>
                 <div className={styles.textWrapper}>
-                    Собственные немецкие экструзионные линии
+                    {props.item.description}
                 </div>
             </div>
         </div>
@@ -22,24 +26,28 @@ function Item(props) {
 const CarouselBoxProduction = () => {
     var items = [
         {
-            name: "Random Name #1",
-            description: "Probably the most random thing you have ever seen!",
+            description: "Термоформовочное оборудование из Германии",
             img: prod
         },
         {
-            name: "Random Name #2",
-            description: "Hello World!",
+            description: "Производственная мощность - 17 млн стаканов в месяц/204 млн стаканов в год.",
             img: prod2
         },
         {
-            name: "Random Name #2",
-            description: "Hello World!",
-            img: prod2
+            description: "22 артикула диаметром 95 мм.",
+            img: prod3
         },
         {
-            name: "Random Name #2",
-            description: "Hello World!",
-            img: prod2
+            description: "Собственная экструзионная линия производство Германия. Производственная мощность до 500 тонн в месяц/ 6 000 тонн в год.",
+            img: prod4
+        },
+        {
+            description: "Восьми цветная печатная машина методом сухого офсета производство Нидерланды.",
+            img: prod5
+        },
+        {
+            description: "Производительная мощность 6 млн шт в месяц/ 72 млн шт в год.",
+            img: prod6
         }
     ]
 

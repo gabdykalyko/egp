@@ -15,8 +15,7 @@ function Item(props) {
             <div className={styles.img} style={{
                 backgroundImage: `url("${props.item.img}")`,
                 backgroundSize: `cover`,
-                backgroundRepeat: `no-repeat`,
-                backgroundPosition: "0% 30%"
+                backgroundRepeat: `no-repeat`
             }}>
             </div>
         </div>

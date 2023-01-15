@@ -5,9 +5,12 @@
     width: 33%;
 
     .imgWrapper {
+        width: 250px;
+        height: 170px;
+        overflow: hidden;
+        border-radius: 15px;
 
         .img {
-            border-radius: 15px;
             width: 100%;
         }
     }
@@ -24,5 +27,23 @@
         font-size: 14px;
         margin-top: 14px;
         padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 964px) {
+    .item {
+        width: 50%;
+
+        .imgWrapper {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .item {
+        width: 75%;
+
     }
 }

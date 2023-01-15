@@ -1,6 +1,8 @@
 import styles from "./Catalog.module.scss";
 import CatalogItem from "./CatalogItem/CatalogItem";
-import art328 from "../../images/art328.jpeg";
+import art328 from "../../images/catalog/art328.jpeg";
+import art377 from "../../images/catalog/art377.jpeg";
+import art393 from "../../images/catalog/art393.jpeg";
 import { Link } from "react-router-dom";
 
 const Catalog = () => {
@@ -23,26 +25,26 @@ const Catalog = () => {
                     ]}
                 />
                 <CatalogItem
-                    src={art328}
-                    title={"Стакан Арт, 328"}
+                    src={art377}
+                    title={"Стакан Арт, 377"}
                     text={[
                         "Материал - Полипролен",
-                        "Емкость - 180 - 200 мл",
+                        "Емкость - 320 - 350 мл",
                         "Верхний диаметр - 95 мм",
                         "Декор - Офсетная печать/Слив",
-                        "Количество в коробе - 1 560 шт",
+                        "Количество в коробе - 1 080 шт",
                         "Возможна комплектация платинкой и крышкой"
                     ]}
                 />
                 <CatalogItem
-                    src={art328}
-                    title={"Стакан Арт, 328"}
+                    src={art393}
+                    title={"Стакан Арт, 393"}
                     text={[
                         "Материал - Полипролен",
                         "Емкость - 180 - 200 мл",
                         "Верхний диаметр - 95 мм",
-                        "Декор - Офсетная печать/Слив",
-                        "Количество в коробе - 1 560 шт",
+                        "Декор - Картонная обечайка",
+                        "Количество в коробе - 1080 шт",
                         "Возможна комплектация платинкой и крышкой"
                     ]}
                 />
