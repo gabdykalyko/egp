@@ -29,7 +29,7 @@ const Coworking = () => {
             </div>
             <div className={styles.coworkingWrapper}>
                 <CoworkingItem src={auto} alt={'auto'} text={"Наши изделия идеально подходят под автоматические линии розлива и запайки продукции"} />
-                <CoworkingItem src={set} alt={'set'} text={"Мы можем комплектовать наши стаканы платинкой и крышкой"} />
+                <CoworkingItem src={set} alt={'set'} text={"По запросу, мы укомплектуем стаканы крышкой и платинкой"} />
             </div>
         </div>
     )

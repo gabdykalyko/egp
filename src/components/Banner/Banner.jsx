@@ -10,8 +10,9 @@ const Banner = () => {
             </div>
             <div className={styles.text}>
                 Казахстанский <br />
-                производитель стаканчиков <br />
-                под запайку
+                производитель стаканов <br />
+                под запайку для молочной <br />
+                продукции
             </div>
             <Social />
             <div className={styles.topLineWrapper}>

@@ -1,5 +1,5 @@
 .formWrapper {
-    margin: 50px auto 0;
+    margin: 100px auto 0;
     width: 70%;
 
     .inputWrapper {
@@ -26,6 +26,18 @@
             outline: none;
             padding: 12px;
             width: 100%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .formWrapper {
+
+        .inputWrapper {
+
+            .input {
+                font-size: 20px;
+            }
         }
     }
 }

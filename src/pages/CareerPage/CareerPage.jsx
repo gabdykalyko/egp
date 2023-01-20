@@ -3,6 +3,7 @@ import styles from "./CareerPage.module.scss";
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import { Alert } from "@mui/material";
+import HeaderMobile from "../../components/HeaderMobile/HeaderMobile";
 
 const CareerPage = () => {
     const [toSend, setToSend] = useState({
@@ -38,6 +39,7 @@ const CareerPage = () => {
     return (
         <div>
             <Header />
+            <HeaderMobile />
             <div className={styles.formWrapper}>
                 {success && <Alert severity="success">Заявка успешно отправлена</Alert>}
                 <form>
@@ -75,7 +77,7 @@ const CareerPage = () => {
                         <input
                             className={styles.input}
                             name="position"
-                            placeholder="Должность на которую претендуете"
+                            placeholder="Должность"
                             type="text"
                             onChange={handleChange}
                             value={toSend.position}

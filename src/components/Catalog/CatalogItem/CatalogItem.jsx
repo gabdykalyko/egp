@@ -12,7 +12,7 @@ const CatalogItem = (props) => {
                 </div>
                 <ul className={styles.list}>
                     {props.text.map((item)=>(
-                        <li>
+                        <li key={item.key}>
                             {item}
                         </li>
                     ))}
