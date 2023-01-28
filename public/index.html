@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,8 +22,31 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>EGP</title>
-  </head>
-  <body>
+    <!-- Marquiz script start -->
+    <script>
+        (function (w, d, s, o) {
+            var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js'; j.onload = function () {
+                if (document.readyState !== 'loading') Marquiz.init(o);
+                else document.addEventListener("DOMContentLoaded", function () {
+                    Marquiz.init(o);
+                });
+            };
+            d.head.insertBefore(j, d.head.firstElementChild);
+        })(window, document, 'script', {
+            host: '//quiz.marquiz.ru',
+            region: 'eu',
+            id: '63d4075f2b5eb7004f2c9963',
+            autoOpen: false,
+            autoOpenFreq: 'once',
+            openOnExit: false,
+            disableOnMobile: false
+        }
+        );
+    </script>
+    <!-- Marquiz script end -->
+</head>
+
+<body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -38,5 +59,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

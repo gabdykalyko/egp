@@ -12,6 +12,7 @@ const catalogItems = [
     {
         src: art328,
         title: "Стакан Арт, 328",
+        slug: 'art328',
         text: [
             "Материал - Полипролен",
             "Емкость - 180 - 200 мл",
@@ -24,6 +25,7 @@ const catalogItems = [
     {
         src: art377,
         title: "Стакан Арт, 377",
+        slug: 'art377',
         text: [
             "Материал - Полипролен",
             "Емкость - 320 - 350 мл",
@@ -36,6 +38,7 @@ const catalogItems = [
     {
         src: art393,
         title: "Стакан Арт, 393",
+        slug: 'art393',
         text: [
             "Материал - Полипролен",
             "Емкость - 180 - 200 мл",
@@ -47,7 +50,8 @@ const catalogItems = [
     },
     {
         src: art315,
-        title: "Стакан Арт, 328",
+        title: "Стакан Арт, 315",
+        slug: 'art315',
         text: [
             "Материал - Полипролен",
             "Емкость - 400 мл",
@@ -59,7 +63,8 @@ const catalogItems = [
     },
     {
         src: art369,
-        title: "Стакан Арт, 328",
+        title: "Стакан Арт, 369",
+        slug: 'art369',
         text: [
             "Материал - Полипролен",
             "Емкость - 300 - 350 мл",
@@ -70,8 +75,9 @@ const catalogItems = [
         ]
     },
     {
-        src: art328,
-        title: "Стакан Арт, 328",
+        src: art315,
+        title: "Стакан Арт, 315",
+        slug: 'art315',
         text: [
             "Материал - Полипролен",
             "Емкость - 180 - 200 мл",
@@ -93,6 +99,7 @@ const CatalogPage = () => {
                     <CatalogPageItem
                         src={item.src}
                         title={item.title}
+                        slug={item.slug}
                         text={item.text}
                     />
                 ))}
