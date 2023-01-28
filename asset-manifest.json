@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/egp/static/css/main.462ea25c.css",
-    "main.js": "/egp/static/js/main.412efc7f.js",
+    "main.css": "/egp/static/css/main.4809e35b.css",
+    "main.js": "/egp/static/js/main.7b17624b.js",
     "static/js/787.aa3bfa12.chunk.js": "/egp/static/js/787.aa3bfa12.chunk.js",
     "static/media/group5.jpeg": "/egp/static/media/group5.08845914a24002a18b79.jpeg",
     "static/media/fourth.png": "/egp/static/media/fourth.624e035959039343b253.png",
@@ -54,15 +54,15 @@
     "static/media/logo.svg": "/egp/static/media/logo.a88ed419bb6ff7db8c6b9431d5ca56f6.svg",
     "static/media/inst.svg": "/egp/static/media/inst.9ea09accd3e41cac7e5fd06d9847c7d1.svg",
     "static/media/whatsapp.svg": "/egp/static/media/whatsapp.cd41159f5ac8911a62f42b05a7dc3fa0.svg",
-    "static/media/telegram.svg": "/egp/static/media/telegram.a69c14195ac5f84fd67ab701ae6d0468.svg",
     "index.html": "/egp/index.html",
+    "static/media/telegram.svg": "/egp/static/media/telegram.a69c14195ac5f84fd67ab701ae6d0468.svg",
     "static/media/menu.svg": "/egp/static/media/menu.407d96f0e9d1a36140913ade1478fa27.svg",
-    "main.462ea25c.css.map": "/egp/static/css/main.462ea25c.css.map",
-    "main.412efc7f.js.map": "/egp/static/js/main.412efc7f.js.map",
+    "main.4809e35b.css.map": "/egp/static/css/main.4809e35b.css.map",
+    "main.7b17624b.js.map": "/egp/static/js/main.7b17624b.js.map",
     "787.aa3bfa12.chunk.js.map": "/egp/static/js/787.aa3bfa12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.462ea25c.css",
-    "static/js/main.412efc7f.js"
+    "static/css/main.4809e35b.css",
+    "static/js/main.7b17624b.js"
   ]
 }
