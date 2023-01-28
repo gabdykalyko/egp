@@ -9,7 +9,6 @@ import { useParams } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import HeaderMobile from "../../components/HeaderMobile/HeaderMobile";
 import { useEffect } from "react";
-import { HashLink as Link } from 'react-router-hash-link';
 import { useState } from "react";
 
 const catalogItems = {

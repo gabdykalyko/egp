@@ -1,6 +1,6 @@
 import Social from "../Social/Social";
 import styles from "./Banner.module.scss";
-import cup from "../../images/cup.png"
+import cup from "../../images/cup.png";
 
 const Banner = () => {
     return (
