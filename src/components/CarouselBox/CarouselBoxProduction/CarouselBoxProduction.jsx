@@ -1,8 +1,8 @@
 import Carousel from 'react-material-ui-carousel';
-import prod from "../../../images/production/first.png";
-import prod2 from "../../../images/production/second.png";
+import prod from "../../../images/production/first.jpg";
+import prod2 from "../../../images/production/second.jpg";
 import prod3 from "../../../images/production/third.png";
-import prod4 from "../../../images/production/fourth.png";
+import prod4 from "../../../images/production/fourth.jpg";
 import prod5 from "../../../images/production/fifth.png";
 import prod6 from "../../../images/production/sixth.png";
 import styles from "./CarouselBoxProduction.module.scss";
@@ -26,11 +26,11 @@ function Item(props) {
 const CarouselBoxProduction = () => {
     var items = [
         {
-            description: "Термоформовочное оборудование из Германии",
+            description: "Три термоформовочные линии производства Германия",
             img: prod
         },
         {
-            description: "Производственная мощность - 17 млн стаканов в месяц/204 млн стаканов в год.",
+            description: "Производственная мощность - 20 млн стаканов в месяц/240 млн стаканов в год.",
             img: prod2
         },
         {
@@ -38,7 +38,7 @@ const CarouselBoxProduction = () => {
             img: prod3
         },
         {
-            description: "Собственная экструзионная линия производство Германия. Производственная мощность до 500 тонн в месяц/ 6 000 тонн в год.",
+            description: "Две экструзионные линии производства Германия. Производственная мощность до 1000 тонн в месяц/ 12 000 тонн в год.",
             img: prod4
         },
         {

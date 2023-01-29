@@ -1,7 +1,9 @@
 .item {
-    width: 32%;
 
     .imgWrapper {
+        border-radius: 15px;
+        height: 205px;
+        overflow: hidden;
 
         .img {
             border-radius: 15px;
@@ -33,5 +35,9 @@
 @media only screen and (max-width: 621px) {
     .item {
         width: 80%;
+
+        .imgWrapper {
+            height: unset;
+        }
     }
 }
