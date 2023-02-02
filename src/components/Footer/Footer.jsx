@@ -29,13 +29,19 @@ const Footer = () => {
             </div>
             <div className={styles.contacts}>
                 <div className={styles.contactsItem}>
-                    <img src={inst} style={{width: "40px"}}/>
+                    <a href="https://instagram.com/egpi.kz?igshid=Zjc2ZTc4Nzk" target="_blank">
+                        <img src={inst} style={{ width: "40px" }} alt="instagram" />
+                    </a>
                 </div>
                 <div className={styles.contactsItem}>
-                    <img src={telegram} style={{width: "40px"}}/>
+                    <a href="https://t.me/EGPI_Almaty" target="_blank">
+                        <img src={telegram} style={{ width: "40px" }} alt="instagram" />
+                    </a>
                 </div>
                 <div>
-                    <img src={whatsapp} style={{width: "40px"}}/>
+                    <a href="https://wa.me/77077711564" target="_blank">
+                        <img src={whatsapp} style={{ width: "40px" }} />
+                    </a>
                 </div>
             </div>
         </div>
