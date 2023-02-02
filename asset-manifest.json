@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/egp/static/css/main.08c3d529.css",
-    "main.js": "/egp/static/js/main.39ac19b9.js",
+    "main.css": "/egp/static/css/main.74c821cd.css",
+    "main.js": "/egp/static/js/main.08173726.js",
     "static/js/787.aa3bfa12.chunk.js": "/egp/static/js/787.aa3bfa12.chunk.js",
     "static/media/group5.jpeg": "/egp/static/media/group5.08845914a24002a18b79.jpeg",
     "static/media/art374.png": "/egp/static/media/art374.e9e1cb6f7efe6e61a6b3.png",
@@ -38,10 +38,12 @@
     "static/media/art315.jpeg": "/egp/static/media/art315.e2bae9c3e8d7e8f1460d.jpeg",
     "static/media/art369.jpeg": "/egp/static/media/art369.e223b341918485bd497e.jpeg",
     "static/media/lab.jpg": "/egp/static/media/lab.ccd5f0d821dcae625fba.jpg",
+    "static/media/city.jpg": "/egp/static/media/city.258c4798af5301a693c3.jpg",
     "static/media/cup.png": "/egp/static/media/cup.a32757ab5317262eee53.png",
     "static/media/polyp.jpg": "/egp/static/media/polyp.dae7f56821eaeb9d1b83.jpg",
     "static/media/art377.jpeg": "/egp/static/media/art377.75400b552922b434e2fa.jpeg",
     "static/media/art370.jpeg": "/egp/static/media/art370.c3eae2ceda33072a45ed.jpeg",
+    "static/media/qarasaz.png": "/egp/static/media/qarasaz.f7e59e024a95f1a70e9a.png",
     "static/media/art328.jpeg": "/egp/static/media/art328.c71c0e725f58912239c7.jpeg",
     "static/media/Mulish-Light.ttf": "/egp/static/media/Mulish-Light.7a7fd01c4b43ebbaf782.ttf",
     "static/media/Mulish-Medium.ttf": "/egp/static/media/Mulish-Medium.282d0d903ec6a342392f.ttf",
@@ -50,16 +52,21 @@
     "static/media/Mulish-SemiBold.ttf": "/egp/static/media/Mulish-SemiBold.4f754a16985bfa495977.ttf",
     "static/media/art397.jpg": "/egp/static/media/art397.3c335688a759f4111fb7.jpg",
     "static/media/kamilka.png": "/egp/static/media/kamilka.ab4f4f91f690fa6b206f.png",
+    "static/media/organic.png": "/egp/static/media/organic.31d297cc89bde383b0b4.png",
     "static/media/tekeli.png": "/egp/static/media/tekeli.bf3411c90c67d8e0b024.png",
     "static/media/milk.png": "/egp/static/media/milk.addbe94afff7abd22dad.png",
+    "static/media/meaf.png": "/egp/static/media/meaf.64900fb2e4e8547fce52.png",
     "static/media/airan.png": "/egp/static/media/airan.98a3e32fdc08ca8d7d06.png",
+    "static/media/telko.png": "/egp/static/media/telko.b5c1c72c214fb3251938.png",
     "static/media/airant.png": "/egp/static/media/airant.0d616aa3a1f8dc53c1b3.png",
     "static/media/zhanaozen.png": "/egp/static/media/zhanaozen.e1900884d7de9b7a9b85.png",
     "static/media/rodina.png": "/egp/static/media/rodina.90615360a5384f36ef3f.png",
     "static/media/smil.png": "/egp/static/media/smil.f7f3be252314f67b4a2d.png",
+    "static/media/kpi.png": "/egp/static/media/kpi.1af666abb683cb0e6751.png",
     "static/media/phone.svg": "/egp/static/media/phone.64871a656e7e05f7b2685fe983ee93f3.svg",
     "static/media/baiserke.png": "/egp/static/media/baiserke.25172b8eb5d9867ce260.png",
     "static/media/diamat1.png": "/egp/static/media/diamat1.b60cdf3f2bdbd5b73d74.png",
+    "static/media/motan.png": "/egp/static/media/motan.cea838c62a0fc179e8b9.png",
     "static/media/adal.png": "/egp/static/media/adal.06f1ef06f0e47f218eec.png",
     "static/media/logo.svg": "/egp/static/media/logo.a88ed419bb6ff7db8c6b9431d5ca56f6.svg",
     "static/media/fast.svg": "/egp/static/media/fast.35abdeb58b3fee56cd6114b7ad2e0eeb.svg",
@@ -75,12 +82,12 @@
     "static/media/telegram.svg": "/egp/static/media/telegram.a69c14195ac5f84fd67ab701ae6d0468.svg",
     "static/media/complect.svg": "/egp/static/media/complect.0ab575d7570b115d53347ea268b905b8.svg",
     "static/media/menu.svg": "/egp/static/media/menu.407d96f0e9d1a36140913ade1478fa27.svg",
-    "main.08c3d529.css.map": "/egp/static/css/main.08c3d529.css.map",
-    "main.39ac19b9.js.map": "/egp/static/js/main.39ac19b9.js.map",
+    "main.74c821cd.css.map": "/egp/static/css/main.74c821cd.css.map",
+    "main.08173726.js.map": "/egp/static/js/main.08173726.js.map",
     "787.aa3bfa12.chunk.js.map": "/egp/static/js/787.aa3bfa12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08c3d529.css",
-    "static/js/main.39ac19b9.js"
+    "static/css/main.74c821cd.css",
+    "static/js/main.08173726.js"
   ]
 }
